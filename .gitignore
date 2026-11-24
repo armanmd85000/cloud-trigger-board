@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and sensitive credentials
+.env
+.env.local
+config.py
+*.token
+tokens.json
+credentials.json
+session.json
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
